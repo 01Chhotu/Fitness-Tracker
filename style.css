@@ -1,0 +1,81 @@
+.body{
+    width: 100vw;
+    font-family: sans-serif;
+    box-sizing: content-box;
+    background-color: #ECECEC;
+}
+.headerText{
+    text-align: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding-inline: 15px;
+    padding-top: 15px;
+    box-shadow: 0 0 10px #0000001a;
+}
+.card h1{
+    text-align: center;
+}
+.card label{
+    text-align: center;
+    margin-block: 15px;
+}
+.card input{
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+.card #dark{
+    width: 50px;
+    margin-inline: auto;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+.card #AddBtn{
+    margin-top: 10px;
+    width: 60px;
+    height: 40px;
+    margin-inline: auto;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.WorkLog{
+    display: flex;
+    flex-direction: column;
+}
+.continer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.WorkLog p{
+    width: 100%;
+    margin-left: 10px;
+}
+.WorkLog button{
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+.card .warning{
+    text-align: center;
+    color: red;
+}
